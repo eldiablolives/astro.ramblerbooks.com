@@ -1,0 +1,50 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Navbar from '../../../components/Navbar.astro';
+import Footer from '../../../components/Footer.astro';
+import Subscribe from '../../../components/Subscribe.astro';
+---
+
+<Layout title='Rumpel Stiltskin | Big' description='Big novel by Rumpel Stiltskin' image='/images/big.jpg'>
+  <Navbar />
+  <main>
+    <div class='monster'>
+      <!-- <img src="/images/biglogo.png" class="biglogo biglogo-spaced" /> -->
+      <div>
+        <br />
+        <br />
+        <br />
+      </div>
+
+      <div class='grid'>
+        <div class='big-cover'>
+          <img src='/images/covers/big.jpg' />
+        </div>
+        <div class='book-description'>
+          <p class='emp grey'>BY RUMPEL STILTSKIN</p>
+          <div class='book-title-container'>
+            <div class='title'>Big</div>
+            <div>
+              <br /><br />
+
+              <!-- <a href='preview/' class='preview-button'>Preview</a> -->
+            </div><br />
+          </div>
+
+          <div class='bigger'>
+            <p>Ext convict employed by mob kidnaps a little girl. Full description is coming soon.</p>
+            <p>This book contains strong language and a graphic description of consensual sex between adults.</p>
+
+            <br /><br />
+            <Subscribe />
+            <!-- <div id='disqus_thread' class='disqus'></div> -->
+            <br /><br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <Footer />
+</Layout>
+
+<style lang='scss'></style>

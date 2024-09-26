@@ -1,0 +1,53 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Navbar from '../../../components/Navbar.astro';
+import Footer from '../../../components/Footer.astro';
+import Subscribe from '../../../components/Subscribe.astro';
+---
+
+<Layout
+  title='Rumpel Stiltskin | Birthday Girl'
+  description='Birthday Girl novel by Rumpel Stiltskin'
+  image='/images/birthday-girl.jpg'
+>
+  <Navbar />
+  <main>
+    <div class='monster'>
+      <!-- <img src="/images/biglogo.png" class="biglogo biglogo-spaced" /> -->
+      <div>
+        <br />
+        <br />
+        <br />
+      </div>
+
+      <div class='grid'>
+        <div class='big-cover'>
+          <img src='/images/covers/birthday-girl.jpg' />
+        </div>
+        <div class='book-description'>
+          <p class='emp grey'>BY RUMPEL STILTSKIN</p>
+          <div class='book-title-container'>
+            <div class='title'>Birthday Girl</div>
+            <div>
+              <br /><br />
+
+              <!-- <a href='preview/' class='preview-button'>Preview</a> -->
+            </div><br />
+          </div>
+
+          <div class='bigger'>
+            <p></p>
+
+            <br /><br />
+            <Subscribe />
+            <!-- <div id='disqus_thread' class='disqus'></div> -->
+            <br /><br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <Footer />
+</Layout>
+
+<style lang='scss'></style>

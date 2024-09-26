@@ -1,0 +1,71 @@
+---
+export interface Props {
+  title: string;
+  description: string;
+  image: string;
+}
+
+const { title, description, image } = Astro.props as Props;
+import '../styles/main.sass';
+---
+
+<!DOCTYPE html>
+<html lang='en'>
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({ 'gtm.start': new Date().getTime(), 'event': 'gtm.js' });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-NR9TZQ9');
+  </script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset='utf-8' />
+  <title>{title}</title>
+  <link rel='canonical' href='https://rumpel-stiltskin.com' />
+  <meta name='description' content={description} />
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
+  <meta name='keywords' content='erotica,adult,erotic,fantasy,literature,story,stories,sex stories,book,ebook' />
+  <link rel='icon' type='image/x-icon' href='/icons/favicon.ico' />
+  <link rel='apple-touch-icon-precomposed' sizes='57x57' href='/icons/apple-touch-icon-57x57.png' />
+  <link rel='apple-touch-icon-precomposed' sizes='114x114' href='/icons/apple-touch-icon-114x114.png' />
+  <link rel='apple-touch-icon-precomposed' sizes='72x72' href='/icons/apple-touch-icon-72x72.png' />
+  <link rel='apple-touch-icon-precomposed' sizes='144x144' href='/icons/apple-touch-icon-144x144.png' />
+  <link rel='apple-touch-icon-precomposed' sizes='60x60' href='/icons/apple-touch-icon-60x60.png' />
+  <link rel='apple-touch-icon-precomposed' sizes='120x120' href='/icons/apple-touch-icon-120x120.png' />
+  <link rel='apple-touch-icon-precomposed' sizes='76x76' href='/icons/apple-touch-icon-76x76.png' />
+  <link rel='apple-touch-icon-precomposed' sizes='152x152' href='/icons/apple-touch-icon-152x152.png' />
+  <link rel='icon' type='image/png' href='/icons/favicon-196x196.png' sizes='196x196' />
+  <link rel='icon' type='image/png' href='/icons/favicon-96x96.png' sizes='96x96' />
+  <link rel='icon' type='image/png' href='/icons/favicon-32x32.png' sizes='32x32' />
+  <link rel='icon' type='image/png' href='/icons/favicon-16x16.png' sizes='16x16' />
+  <link rel='icon' type='image/png' href='/icons/favicon-128.png' sizes='128x128' />
+  <meta name='application-name' content='Rumpel Stiltskin' />
+  <meta name='msapplication-TileColor' content='#FF0000' />
+  <meta name='msapplication-TileImage' content='/icons/mstile-144x144.png' />
+  <meta name='msapplication-square70x70logo' content='/icons/mstile-70x70.png' />
+  <meta name='msapplication-square150x150logo' content='/icons/mstile-150x150.png' />
+  <meta name='msapplication-wide310x150logo' content='/icons/mstile-310x150.png' />
+  <meta name='msapplication-square310x310logo' content='/icons/mstile-310x310.png' />
+  <link rel='preconnect' href='https://fonts.googleapis.com' />
+  <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
+  <link href='https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap' rel='stylesheet' />
+  <link href='https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap' rel='stylesheet' />
+
+  <meta property='og:site_name' content='Rumpel Stiltskin Books and Stories' />
+  <meta property='og:title' content={title} />
+  <meta name='description' content={description} />
+  <meta property='og:image' content={image} />
+  <!-- <meta property='og:image:type' content='image/jpeg' />
+  <meta property='og:image:width' content='400' />
+  <meta property='og:image:height' content='600' /> -->
+  <body>
+    <slot />
+  </body>
+</html>

@@ -1,0 +1,90 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Navbar from '../../../components/Navbar.astro';
+import Footer from '../../../components/Footer.astro';
+import Subscribe from '../../../components/Subscribe.astro';
+---
+
+<Layout
+  title='Rumpel Stiltskin | Dire Wolf'
+  description='Dire Wolf novel by Rumpel Stiltskin'
+  image='/images/dire-wolf.jpg'
+>
+  <Navbar />
+  <main>
+    <div class='monster'>
+      <!-- <img src="/images/biglogo.png" class="biglogo biglogo-spaced" /> -->
+      <div>
+        <br />
+        <br />
+        <br />
+      </div>
+
+      <div class='grid'>
+        <div class='big-cover'>
+          <img src='/images/covers/direwolf.jpg' />
+        </div>
+        <div class='book-description'>
+          <p class='emp grey'>BY RUMPEL STILTSKIN</p>
+          <div class='book-title-container'>
+            <div class='title'>Dire Wolf</div>
+            <div>
+              <a href='preview/chapter-1-evergreen' class='preview-button'>Preview</a>
+            </div><br />
+          </div>
+
+          <div class='bigger'>
+            <p>
+              A gipsy man arrives in town to bury his aunt. On the way, he discovers the forest hiding the secret of how
+              she died. There is a legend of creatures that are part men and part wolves, and there are some signs that
+              they were involved. He never saw a werewolf before, but they had never met anyone of his people either.
+            </p>
+
+            <p>
+              Rom is tall, fit and muscular, attracting young women from the little town. Soon they discover that he is
+              different, stronger and darker and loves to run naked. There is something bestial in Rom’s character. He
+              is in love with his forest, and his people are one with nature. They would never allow the werewolves to
+              hide there. The forest rejected them. The clash between the two tribes becomes inevitable, the werewolves
+              and something else. As the two groups lay claim to one land, Rom wonders if he could survive. One man
+              against the werewolves. Undoubtedly he must lose.
+            </p>
+
+            <p>
+              This is a full-length novel intended for a mature audience. It contains a graphic description of
+              consensual sex between adults.
+            </p>
+
+            <br />
+            <div class='center retailers'>
+              <!-- Amazon -->
+              <a href='https://www.amazon.com/Dire-Werewolf-legends-Rumpel-Stiltskin-ebook/dp/B0BSNS6V62'
+                ><img src='/images/amaz1.png' class='retailer' style='width: 100px; margin-top: 10px' />
+              </a>
+
+              <!-- Apple -->
+              <!-- <a href='https://apple.co/3zSPgfs'
+                ><img src='/images/apple-books-badge.png' class='retailer' style='height: 35px; margin-top: 10px' />
+              </a> -->
+
+              <!-- Google -->
+              <!-- <a href='https://play.google.com/store/books/details/Rumpel_Stiltskin_Montana?id=ftFBEAAAQBAJ'
+                ><img src='/images/google-play-badge.png' class='retailer' style='height: 60px' />
+              </a> -->
+
+              <!-- <a href="" class="retailer preview-button" style="margin-top: 10px">Preview</a> -->
+              <!-- <a href="https://www.smashwords.com/books/view/1070773"><img src="/images/smashwords.png" /></a> -->
+            </div>
+
+            <br /><br />
+            <Subscribe />
+            <!-- <div id='disqus_thread' class='disqus'></div> -->
+            <br /><br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <Footer />
+</Layout>
+
+<style lang='scss'></style>

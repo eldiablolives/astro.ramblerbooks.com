@@ -1,0 +1,69 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import Navbar from '../../../../components/Navbar.astro';
+import Footer from '../../../../components/Footer.astro';
+---
+
+<Layout title='Welcome to Astro.'>
+  <Navbar />
+  <main>
+    <div class='monster'>
+      <!-- <img src="/images/biglogo.png" class="biglogo biglogo-spaced" /> -->
+      <div>
+        <br />
+        <br />
+        <br />
+      </div>
+
+      <div class='grid'>
+        <!-- <div class='big-cover'>
+          <img src='/images/covers/montana3.jpg' />
+        </div> -->
+        <div class='book-reader'>
+          <img src='/images/covers/montana3.jpg' />
+          <p class='emp grey'>MONTANA</p>
+          <h1>Chapter 1 - The Arrival</h1>
+          <div class='biggest'>
+
+            ...
+
+            
+          </div>
+          <div>
+            <br />
+            <div class='center retailers'>
+              <!-- Amazon -->
+              <a href='https://www.amazon.com/Greg-Rumpel-Stiltskin-ebook/dp/B0B298962T'
+                ><img src='/images/amaz1.png' class='retailer' style='width: 100px; margin-top: 10px' />
+              </a>
+
+              <!-- Apple -->
+              <a href='https://apple.co/3y7XejC'
+                ><img src='/images/apple-books-badge.png' class='retailer' style='height: 35px; margin-top: 10px' />
+              </a>
+
+              <!-- Google -->
+              <a href='https://play.google.com/store/books/details/Rumpel_Stiltskin_Greg?id=8TNxEAAAQBAJ'
+                ><img src='/images/google-play-badge.png' class='retailer' style='height: 60px' />
+              </a>
+
+              <a href='chapter-2-personal-power' class='retailer preview-button' style='margin-top: 10px'
+                >Next chapter >></a
+              >
+
+              <!-- <a href="chapter-1-champagne-and-roses" class="retailer preview-button" style="margin-top: 10px">Next chapter</a> -->
+              <!-- <a href="https://www.smashwords.com/books/view/1070773"><img src="/images/smashwords.png" /></a> -->
+            </div>
+
+            <br />
+  
+            <div id='disqus_thread' class='disqus'></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <Footer />
+</Layout>
+
+<style lang='scss'></style>

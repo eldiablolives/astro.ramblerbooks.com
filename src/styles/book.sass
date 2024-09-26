@@ -1,0 +1,140 @@
+.book-item
+    display: block
+    float: left
+    width: 200px
+    padding-left: 15px
+    padding-right: 15px
+    padding-bottom: 20px
+    height: 420px
+
+.cover
+    background: #eee
+    display: block
+    float: left
+    overflow: auto
+
+.author
+    display: block
+    float: left
+    width: 100%
+    padding-top: 10px
+    padding-bottom: 5px
+
+.book-title
+    display: block
+    float: left
+    width: 100%
+    font-size: 25px
+    line-height: 25px
+    padding-top: 5px
+    padding-bottom: 5px
+
+.big-book
+    background: white
+    width: 700px
+    margin: auto
+    padding: 20px
+    overflow: auto
+
+.book-description
+    display: block
+    float: left
+    width: calc(100% - 440px)
+    // background: yellow
+
+.book-reader
+    background: white
+    width: 80%
+    margin: auto
+    padding: 20px
+    overflow: auto
+    // background: pink
+
+    & > img
+        float: left
+        padding-right: 20px
+        padding-bottom: 15px
+
+.reader
+    background: green
+    float: left
+
+// .read-book
+//     background: white
+//     width: 80%
+//     margin: auto
+//     padding: 20px
+//     overflow: auto
+
+.big-cover
+    display: block
+    float: left
+    padding-right: 40px
+
+    > img
+        width: 400px
+
+.big-cover-img
+    width: 400px
+
+.book-preview
+    width: 80%
+    margin-left: auto
+    margin-right: auto
+    paddng-bottom: 50px
+
+.book-title-container
+    overflow: auto
+    // background: green
+
+.small-book
+    background: white
+    width: 200px
+    padding: 10px
+    overflow: auto
+    display: block
+
+.small-cover
+    display: block
+    float: left
+    overflow: auto
+
+    > img
+        width: 200px
+
+@media screen and (max-width: 920px)
+    .big-cover
+        width: 100%
+
+    .book-description
+        width: 100%
+
+// // LARGE
+// @media screen and (max-width: 750px)
+//     .book-item
+//         display: block
+//         float: left
+//         // background: pink
+//         // overflow: auto
+//         width: 200px
+// SMALL
+@media screen and (max-width: 450px)
+    .book-item
+        display: block
+        float: left
+        // background: pink
+        // overflow: auto
+        width: 100%
+        padding-left: 0
+        padding-right: 0
+        height: calc(100vw * 1.5 + 50px)
+
+    .small-cover
+        > img
+            width: 100%
+
+    .big-cover
+        padding: 0
+
+        > img
+            width: 100%

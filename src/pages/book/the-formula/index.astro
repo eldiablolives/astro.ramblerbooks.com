@@ -1,0 +1,88 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Navbar from '../../../components/Navbar.astro';
+import Footer from '../../../components/Footer.astro';
+import Subscribe from '../../../components/Subscribe.astro';
+---
+
+<Layout
+  title='Rumpel Stiltskin | The Formula'
+  description='The Formula novel by Rumpel Stiltskin'
+  image='/images/the-formula.jpg'
+>
+  <Navbar />
+  <main>
+    <div class='monster'>
+      <!-- <img src="/images/biglogo.png" class="biglogo biglogo-spaced" /> -->
+      <div>
+        <br />
+        <br />
+        <br />
+      </div>
+
+      <div class='grid'>
+        <div class='big-cover'>
+          <img src='/images/covers/formula.jpg' />
+        </div>
+        <div class='book-description'>
+          <p class='emp grey'>BY RUMPEL STILTSKIN</p>
+          <div class='book-title-container'>
+            <div class='title'>The Formula</div>
+            <div>
+              <a href='preview/chapter-1-rude-awakening' class='preview-button'>Preview</a>
+            </div><br />
+          </div>
+
+          <div class='bigger'>
+            <p>
+              Ever since Eric took the formula, things have changed dramatically in his life. His new porn star
+              girlfriend learns that her Eric can give her orgasms like she never experienced before, and she can't wait
+              to tell her friends. Nobody could imagine what other surprises are waiting for them.
+            </p>
+            <p>
+              Eric suffers from clinical depression, working as a forensic for the Los Angeles police department. During
+              one of the busts, he discovers a strange formula modifying the mice genetic structure to produce a brand
+              new, undetectable designer drug. After his suicide attempt, Eric discovers that the stolen DNA-altering
+              formula he injected himself with dramatically affects his sexual ability in incredible ways. Adamant to
+              change his life around, Eric pursues new opportunities while dealing with the consequences of his new
+              altered genes.
+            </p>
+            <p>
+              This book contains a graphic description of consensual sex between adults, physical and psychological
+              power play.
+            </p>
+
+            <br />
+            <div class='center retailers'>
+              <!-- Amazon -->
+              <a href='https://www.amazon.com/gp/product/B096VYQJ1B'
+                ><img src='/images/amaz1.png' class='retailer' style='width: 100px; margin-top: 10px' />
+              </a>
+
+              <!-- Apple -->
+              <a href='https://apple.co/3bfCiy4'
+                ><img src='/images/apple-books-badge.png' class='retailer' style='height: 35px; margin-top: 10px' />
+              </a>
+
+              <!-- Google -->
+              <a href='https://play.google.com/store/books/details?id=_TNxEAAAQBAJ'
+                ><img src='/images/google-play-badge.png' class='retailer' style='height: 60px' />
+              </a>
+
+              <!-- <a href="" class="retailer preview-button" style="margin-top: 10px">Preview</a> -->
+              <!-- <a href="https://www.smashwords.com/books/view/1070773"><img src="/images/smashwords.png" /></a> -->
+            </div>
+
+            <br /><br />
+            <Subscribe />
+            <!-- <div id='disqus_thread' class='disqus'></div> -->
+            <br /><br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <Footer />
+</Layout>
+
+<style lang='scss'></style>

@@ -1,0 +1,88 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Navbar from '../../../components/Navbar.astro';
+import Footer from '../../../components/Footer.astro';
+import Subscribe from '../../../components/Subscribe.astro';
+---
+
+<Layout title='Rumpel Stiltskin | Montana' description='Montana novel by Rumpel Stiltskin' image='/images/montana.jpg'>
+  <Navbar />
+  <main>
+    <div class='monster'>
+      <!-- <img src="/images/biglogo.png" class="biglogo biglogo-spaced" /> -->
+      <div>
+        <br />
+        <br />
+        <br />
+      </div>
+
+      <div class='grid'>
+        <div class='big-cover'>
+          <img src='/images/covers/montana3.jpg' />
+        </div>
+        <div class='book-description'>
+          <p class='emp grey'>BY RUMPEL STILTSKIN</p>
+          <div class='book-title-container'>
+            <div class='title'>Montana</div>
+            <div>
+              <a href='preview/chapter-1-the-arrival' class='preview-button'>Free to read</a>
+            </div><br />
+          </div>
+
+          <div class='bigger'>
+            <p>
+              Sally falls in love with her kidnapper, a soldier with PTSD who took her to a farm in Montana. The two
+              learn about each other, and their relationship evolves. While the manhunt continues, deep conflicting
+              emotions arise, and secrets get revealed. Carter is forced to deal with his feelings, caught in a bizarre
+              love triangle with Sally's fiance and her lover.
+            </p>
+            <p>
+              When bandits come to hurt his women, Carter loses his mind and goes on a bloody rampage, destroying
+              everything in his path to protect those he loves. All Carter ever cared about was honour and duty, serving
+              his country, leaving his mark as a hero. All he ever dreamed of was having a family, finding love, living
+              on his land until he lost all, including his mind. Desperate, he packed his stuff, kidnapped a girl that
+              reminded him of a soldier he loved and took her into vast grassland to begin their life. Scared to death,
+              collared and chained, Sally feared the monster but loved the man until the world turned upside down again.
+            </p>
+            <p>
+              This book is an action-packed psychological thriller telling a love story of a mentally damaged honourable
+              man trying to find happiness by any means. Two very different people are put in an impossible, intense
+              position, forced to understand each other and deal with their own misconceptions and prejudice. Together
+              they built a family with a pack of grey wolves in the endless grassland of Montana.
+            </p>
+            <p>This book contains strong language and a graphic description of consensual sex between adults.</p>
+
+            <br />
+            <div class='center retailers'>
+              <!-- Amazon -->
+              <a href='https://www.amazon.com/gp/product/B0971NVNZV'
+                ><img src='/images/amaz1.png' class='retailer' style='width: 100px; margin-top: 10px' />
+              </a>
+
+              <!-- Apple -->
+              <a href='https://apple.co/3zSPgfs'
+                ><img src='/images/apple-books-badge.png' class='retailer' style='height: 35px; margin-top: 10px' />
+              </a>
+
+              <!-- Google -->
+              <a href='https://play.google.com/store/books/details/Rumpel_Stiltskin_Montana?id=ftFBEAAAQBAJ'
+                ><img src='/images/google-play-badge.png' class='retailer' style='height: 60px' />
+              </a>
+
+              <!-- <a href="" class="retailer preview-button" style="margin-top: 10px">Preview</a> -->
+              <!-- <a href="https://www.smashwords.com/books/view/1070773"><img src="/images/smashwords.png" /></a> -->
+            </div>
+
+            <br /><br />
+            <Subscribe />
+            <br /><br />
+            <!-- <div id='disqus_thread' class='disqus'></div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <Footer />
+</Layout>
+
+<style lang='scss'></style>

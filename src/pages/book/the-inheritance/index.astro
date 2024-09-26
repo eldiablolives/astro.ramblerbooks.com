@@ -1,0 +1,91 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Navbar from '../../../components/Navbar.astro';
+import Footer from '../../../components/Footer.astro';
+import Subscribe from '../../../components/Subscribe.astro';
+---
+
+<Layout
+  title='Rumpel Stiltskin | The Inheritance'
+  description='The Inheritance novel by Rumpel Stiltskin'
+  image='/images/the-inheritance.jpg'
+>
+  <Navbar />
+  <main>
+    <div class='monster'>
+      <!-- <img src="/images/biglogo.png" class="biglogo biglogo-spaced" /> -->
+      <div>
+        <br />
+        <br />
+        <br />
+      </div>
+
+      <div class='grid'>
+        <div class='big-cover'>
+          <img src='/images/covers/inheritance.jpg' />
+        </div>
+        <div class='book-description'>
+          <p class='emp grey'>BY RUMPEL STILTSKIN</p>
+          <div class='book-title-container'>
+            <div class='title'>The Inheritance</div>
+            <div>
+              <a href='preview/chapter-1-just-a-dream' class='preview-button'>Preview</a>
+            </div><br />
+          </div>
+
+          <div class='bigger'>
+            <p>
+              What would you do if you inherited a gift of ultimate power and you were unaware of it? For his eighteenth
+              birthday, Charlie inherits more than one gift. One of them is the ability to read minds and control
+              people. He goes through a journey of self-discovery, taking what he likes starting with his younger
+              sister. This is an epic tale of the internal struggle between good and evil.
+            </p>
+            <p>
+              Charlie was adopted as a baby by a wealthy family. They raise him as his son, alongside two beautiful
+              daughters. For his sister's eighteenth birthday, a group of kids end up in a fairground where gipsy reads
+              their fortune.
+            </p>
+            <p>
+              From the next day, strange things start to happen without Charlie realising it. Soon he finds out that he
+              could read minds, but his deep moral values prevent Charlie from becoming a monster.
+            </p>
+            <p>
+              Power tends to corrupt, and absolute power corrupts absolutely. Will charlie manage to wield his power
+              without becoming corrupt himself?
+            </p>
+            <p>This book contains strong language and a graphic description of consensual sex between adults.</p>
+
+            <br />
+            <div class='center retailers'>
+              <!-- Amazon -->
+              <a href='https://www.amazon.com/gp/product/B09885XJNX'
+                ><img src='/images/amaz1.png' class='retailer' style='width: 100px; margin-top: 10px' />
+              </a>
+
+              <!-- Apple -->
+              <a href='https://apple.co/3tUuecx'
+                ><img src='/images/apple-books-badge.png' class='retailer' style='height: 35px; margin-top: 10px' />
+              </a>
+
+              <!-- Google -->
+              <a href='https://play.google.com/store/books/details?id=9zNxEAAAQBAJ'
+                ><img src='/images/google-play-badge.png' class='retailer' style='height: 60px' />
+              </a>
+
+              <!-- <a href="" class="retailer preview-button" style="margin-top: 10px">Preview</a> -->
+              <!-- <a href="https://www.smashwords.com/books/view/1070773"><img src="/images/smashwords.png" /></a> -->
+            </div>
+
+            <br /><br />
+            <Subscribe />
+            <!-- <div id='disqus_thread' class='disqus'></div> -->
+            <br /><br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <Footer />
+</Layout>
+
+<style lang='scss'></style>

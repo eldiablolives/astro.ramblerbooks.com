@@ -1,0 +1,200 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout
+  title='Rumpel Stiltskin | Books and Stories'
+  description='Books and stories by Rumpel Stiltskin'
+  image='/images/logo.png'
+>
+  <Navbar />
+  <main>
+    <div class='monster'>
+      <div class='new-release bg1'>
+        <div class='center'>
+          <p class='emp white'>RUMPEL STILTSKIN</p>
+          <h1 class='white'>New release</h1>
+          <br />
+          <div class='nr-container'>
+            <div class='cover'>
+              <a href='/books/dire-wolf/' class='small-cover'>
+                <img src='/images/covers/direwolf.jpg' />
+              </a>
+            </div>
+            <div class='nr-description bigger'>
+              <h1>Dire Wolf</h1>
+              <p>
+                A gipsy man arrives in town to bury his aunt. On the way, he discovers the forest hiding the secret of
+                how she died. There is a legend of creatures that are part men and part wolves, and there are some signs
+                that they were involved. He never saw a werewolf before, but they had never met anyone of his people
+                either.
+              </p>
+              <p>
+                <a href='/books/dire-wolf'>Read more ...</a>
+              </p>
+
+              <div class='center retailers'>
+                <!-- Amazon -->
+                <a href='https://www.amazon.com/Dire-Werewolf-legends-Rumpel-Stiltskin-ebook/dp/B0BSNS6V62'
+                  ><img src='/images/amaz1.png' class='retailer' style='width: 100px; margin-top: 10px' />
+                </a>
+
+                <!-- Apple -->
+                <!-- <a href='https://apple.co/3y7XejC'
+                  ><img src='/images/apple-books-badge.png' class='retailer' style='height: 35px; margin-top: 10px' />
+                </a> -->
+
+                <!-- Google -->
+                <!-- <a href='https://play.google.com/store/books/details/Rumpel_Stiltskin_Greg?id=8TNxEAAAQBAJ'
+                  ><img src='/images/google-play-badge.png' class='retailer' style='height: 60px' />
+                </a> -->
+
+                <!-- <a href="" class="retailer preview-button" style="margin-top: 10px">Preview</a> -->
+                <!-- <a href="https://www.smashwords.com/books/view/1070773"><img src="/images/smashwords.png" /></a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <img src="/images/biglogo.png" class="biglogo biglogo-spaced" /> -->
+      <div>
+        <br />
+        <br />
+        <br />
+      </div>
+      <div class='center'>
+        <p class='emp grey'>BROWSE BOOKS</p>
+        <h1>Featured books</h1>
+        <p class='bigger grey'>These books are currently published<br />and available through Amazon and Smashwords</p>
+        <br /><br />
+      </div>
+      <div class='grid'>
+        <div class='book-item'>
+          <div class='cover'>
+            <a href='/books/greg/' class='small-cover shadowbox'>
+              <img src='/images/covers/greg.jpg' />
+            </a>
+          </div>
+          <div class='author emp grey'>RUMPEL STILTSKIN</div>
+          <div class='book-title'>Greg</div>
+        </div>
+
+        <div class='book-item'>
+          <div class='cover'>
+            <a href='/books/the-breed/' class='small-cover shadowbox'>
+              <img src='/images/covers/breed.jpg' />
+            </a>
+          </div>
+          <div class='author emp grey'>RUMPEL STILTSKIN</div>
+          <div class='book-title'>The Breed</div>
+        </div>
+
+        <div class='book-item'>
+          <div class='cover'>
+            <a href='/books/montana/' class='small-cover shadowbox'>
+              <img src='/images/covers/montana3.jpg' />
+            </a>
+          </div>
+          <div class='author emp grey'>RUMPEL STILTSKIN</div>
+          <div class='book-title'>Montana <span class='free'>FREE</span></div>
+        </div>
+
+        <div class='book-item'>
+          <div class='cover'>
+            <a href='/books/the-inheritance/' class='small-cover shadowbox'>
+              <img src='/images/covers/inheritance.jpg' />
+            </a>
+          </div>
+          <div class='author emp grey'>RUMPEL STILTSKIN</div>
+          <div class='book-title'>The Inheritance</div>
+        </div>
+
+        <div class='book-item'>
+          <div class='cover'>
+            <a href='/books/the-formula/' class='small-cover shadowbox'>
+              <img src='/images/covers/formula.jpg' />
+            </a>
+          </div>
+          <div class='author emp grey'>RUMPEL STILTSKIN</div>
+          <div class='book-title'>The Formula</div>
+        </div>
+
+        <div></div>
+      </div>
+
+      <div class='center'>
+        <p class='emp grey'>BROWSE BOOKS</p>
+        <h1>Upcoming books</h1>
+        <p class='bigger grey'>Soon to be published books<br />and available through Amazon and Smashwords</p>
+        <br /><br />
+      </div>
+    </div>
+
+    <div class='grid'>
+      <div class='book-item'>
+        <div class='cover'>
+          <a href='/books/the-virus/' class='small-cover shadowbox'>
+            <img src='/images/covers/the-virus.jpg' />
+          </a>
+        </div>
+        <div class='author emp grey'>RUMPEL STILTSKIN</div>
+        <div class='book-title'>The Virus</div>
+      </div>
+
+      <div class='book-item'>
+        <div class='cover'>
+          <a href='/books/clay/' class='small-cover shadowbox'>
+            <img src='/images/covers/clay.jpg' />
+          </a>
+        </div>
+        <div class='author emp grey'>RUMPEL STILTSKIN</div>
+        <div class='book-title'>Clay</div>
+      </div>
+
+      <div class='book-item'>
+        <div class='cover'>
+          <a href='/books/slight-fever/' class='small-cover shadowbox'>
+            <img src='/images/covers/slight-fever.jpg' />
+          </a>
+        </div>
+        <div class='author emp grey'>RUMPEL STILTSKIN</div>
+        <div class='book-title'>Slight Fever</div>
+      </div>
+
+      <div class='book-item'>
+        <div class='cover'>
+          <a href='/books/stardust/' class='small-cover shadowbox'>
+            <img src='/images/covers/stardust.jpg' />
+          </a>
+        </div>
+        <div class='author emp grey'>RUMPEL STILTSKIN</div>
+        <div class='book-title'>Stardust</div>
+      </div>
+
+      <!-- <div class="book-item">
+			  <div class="cover">
+				<a href="/books/twins/" class="small-cover shadowbox">
+				  <img src="/images/covers/twins.jpg" />
+				</a>
+			  </div>
+			  <div class="author emp grey">RUMPEL STILTSKIN</div>
+			  <div class="book-title">Twins</div>
+			</div> -->
+
+      <div class='book-item'>
+        <div class='cover'>
+          <a href='/books/milk/' class='small-cover shadowbox'>
+            <img src='/images/covers/milk.jpg' />
+          </a>
+        </div>
+        <div class='author emp grey'>RUMPEL STILTSKIN</div>
+        <div class='book-title'>Milk</div>
+      </div>
+    </div>
+  </main>
+  <Footer />
+</Layout>
+
+<style lang='scss'></style>

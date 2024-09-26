@@ -1,0 +1,47 @@
+---
+import GlobalStyles from '../components/GlobalStyles.astro';
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout
+  title='Rumpel Stiltskin | About the author'
+  description='About Rumpel Stitltskin (author)'
+  image='/images/logo.png'
+>
+  <Navbar />
+  <main>
+    <div class='monster'>
+      <!-- <img src="/assets/$$/images/biglogo.png" class="biglogo biglogo-spaced" /> -->
+      <div>
+        <br />
+        <br />
+        <br />
+      </div>
+
+      <div class='book-preview'>
+        <div class='big-cover'>
+          <img src='/images/stiltskin.jpg' />
+        </div>
+        <div class='book-description'>
+          <h1>About the author</h1>
+          <div class='bigger'>
+            <p>
+              Rumpel Stiltskin (nom de plume) is a British novelist and poet, born in the early seventies in Europe and
+              spent most of his life living in London and San Diego. He studied at Oxford University and pursued a
+              profession in arts as photographer, film producer and public speaker. Rumpel became a full-time novelist
+              in 2019, just as the pandemic hit, opting for early retirement and pursuing his childhood dream.
+            </p>
+
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <Footer />
+</Layout>
+
+<style lang='scss'></style>

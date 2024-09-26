@@ -1,0 +1,87 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Navbar from '../../../components/Navbar.astro';
+import Footer from '../../../components/Footer.astro';
+import Subscribe from '../../../components/Subscribe.astro';
+---
+
+<Layout title='Rumpel Stiltskin | Greg' description='Greg novel by Rumpel Stiltskin' image='/images/greg.jpg'>
+  <Navbar />
+  <main>
+    <div class='monster'>
+      <!-- <img src="/images/biglogo.png" class="biglogo biglogo-spaced" /> -->
+      <div>
+        <br />
+        <br />
+        <br />
+      </div>
+
+      <div class='grid'>
+        <div class='big-cover'>
+          <img src='/images/covers/greg.jpg' />
+        </div>
+        <div class='book-description'>
+          <p class='emp grey'>BY RUMPEL STILTSKIN</p>
+          <div class='book-title-container'>
+            <div class='title'>Greg</div>
+            <div>
+              <a href='preview/prologue' class='preview-button'>Preview</a>
+            </div><br />
+          </div>
+
+          <div class='bigger'>
+            <p>
+              Greg is good looking, rich and charming, almost irresistible He is often found on the park benches or
+              drunk by the graves. Greg lives a charmed life, but with him travels darkness with black wings and hundred
+              eyes. Seven little souls gone to heaven, seven little lives, seven little deaths, seven sisters, seven
+              little children. Seven promises and seven lies, seven deadly sins till the end of days.
+            </p>
+            <p>
+              If you were offered a bargain to have all your dreams fulfilled in exchange for your unborn child, would
+              you take it? What if you made such a bargain, and now you can’t escape it? Would you run or hide? What
+              would you do if you loved someone you wanted to kill, but he didn’t die?
+            </p>
+            <p>
+              If you were offered a bargain to have all your dreams fulfilled in exchange for your unborn child, would
+              you take it? What if you made such a bargain, and now you can’t escape it? Would you run or hide? What
+              would you do if you loved someone you wanted to kill, but he didn’t die?
+            </p>
+            <p>
+              This is a dark, adult tale with strong language intended for a mature audience, containing a graphic
+              depiction of sex with multiple consensual partners of adult age.
+            </p>
+
+            <br />
+            <div class='center retailers'>
+              <!-- Amazon -->
+              <a href='https://www.amazon.com/Greg-Rumpel-Stiltskin-ebook/dp/B0B298962T'
+                ><img src='/images/amaz1.png' class='retailer' style='width: 100px; margin-top: 10px' />
+              </a>
+
+              <!-- Apple -->
+              <a href='https://apple.co/3y7XejC'
+                ><img src='/images/apple-books-badge.png' class='retailer' style='height: 35px; margin-top: 10px' />
+              </a>
+
+              <!-- Google -->
+              <a href='https://play.google.com/store/books/details/Rumpel_Stiltskin_Greg?id=8TNxEAAAQBAJ'
+                ><img src='/images/google-play-badge.png' class='retailer' style='height: 60px' />
+              </a>
+
+              <!-- <a href="" class="retailer preview-button" style="margin-top: 10px">Preview</a> -->
+              <!-- <a href="https://www.smashwords.com/books/view/1070773"><img src="/images/smashwords.png" /></a> -->
+            </div>
+
+            <br /><br />
+            <Subscribe />
+            <!-- <div id='disqus_thread' class='disqus'></div> -->
+            <br /><br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <Footer />
+</Layout>
+
+<style lang='scss'></style>

@@ -1,0 +1,55 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Navbar from '../../../components/Navbar.astro';
+import Footer from '../../../components/Footer.astro';
+import Subscribe from '../../../components/Subscribe.astro';
+---
+
+<Layout
+  title='Rumpel Stiltskin | Sissy farm'
+  description='Sissy farm story by Rumpel Stiltskin'
+  image='/images/sissy-farm.jpg'
+>
+  <Navbar />
+  <main>
+    <div class='monster'>
+      <!-- <img src="/images/biglogo.png" class="biglogo biglogo-spaced" /> -->
+      <div>
+        <br />
+        <br />
+        <br />
+      </div>
+
+      <div class='grid'>
+        <div class='big-cover'>
+          <img src='/images/covers/sissy-farm.jpg' />
+        </div>
+        <div class='book-description'>
+          <p class='emp grey'>BY RUMPEL STILTSKIN</p>
+          <div class='book-title-container'>
+            <div class='title'>Sissy Farm</div>
+            <div>
+              <br /><br />
+            </div><br />
+          </div>
+
+          <div class='bigger'>
+            <p></p>
+
+            <br />
+          </div>
+          <div class='retailers'>
+            <a href='preview/prologue' class='preview-button'>Start reading</a>
+            <br /><br /><br />
+            <Subscribe />
+            <!-- <div id='disqus_thread' class='disqus'></div> -->
+            <br /><br />
+          </div>
+        </div>
+      </div>
+    </div>
+    <Footer />
+  </main>
+
+  <style lang='scss'></style>
+</Layout>

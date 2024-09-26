@@ -1,0 +1,90 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Navbar from '../../../components/Navbar.astro';
+import Footer from '../../../components/Footer.astro';
+import Subscribe from '../../../components/Subscribe.astro';
+---
+
+<Layout
+  title='Rumpel Stiltskin | Big Fish'
+  description='Big Fish novel by Rumpel Stiltskin'
+  image='/images/big-fish.jpg'
+>
+  <Navbar />
+  <main>
+    <div class='monster'>
+      <!-- <img src="/images/biglogo.png" class="biglogo biglogo-spaced" /> -->
+      <div>
+        <br />
+        <br />
+        <br />
+      </div>
+
+      <div class='grid'>
+        <div class='big-cover'>
+          <img src='/images/covers/big-fish.jpg' />
+        </div>
+        <div class='book-description'>
+          <p class='emp grey'>BY RUMPEL STILTSKIN</p>
+          <div class='book-title-container'>
+            <div class='title'>Big Fish</div>
+            <div>
+              <a href='preview/prologue' class='preview-button'>Free to read</a>
+            </div><br />
+          </div>
+
+          <div class='bigger'>
+            <p>
+              This is a love story about a man who falls in love with a fish. Jim is a rich husband and estranged father
+              on the brink of a divorce, cuckolded by his trophy wife. He plans a cruise with his family on a dead
+              oligarch’s superyacht to fix his relationships, but things get terribly wrong, and the ship disappears.
+              Jim wakes up alone with just the blue ocean and one mermaid.
+            </p>
+            <p>
+              As the search continues, secrets are revealed, and everyone’s true nature is brought to light, contempt,
+              greed and love, as well as Jim’s secret past. Who is Jim, really? Who is the oligarch? Who is Mr Sable
+              exchanging stories for gummy bears? At the end of the day, the only thing you can carry is love and a few
+              good memories. You leave your mark on the world, blink, and disappear.
+            </p>
+            <p>
+              What if you were given another chance at life? Would you change anything or live it the same way? What if
+              you were never alive, just a figment of the imagination of someone long dead?
+            </p>
+            <p>
+              This book is a romantic fantasy with a dramatic psychological theme containing some strong language and
+              violence.
+            </p>
+            <br />
+            <div class='center retailers'>
+              <!-- Amazon -->
+              <a href='https://www.amazon.com/Big-Fish-Rumpel-Stiltskin-ebook/dp/B0BHJKVZ31'
+                ><img src='/images/amaz1.png' class='retailer' style='width: 100px; margin-top: 10px' />
+              </a>
+
+              <!-- Apple -->
+              <!-- <a href='https://apple.co/3zSPgfs'
+                ><img src='/images/apple-books-badge.png' class='retailer' style='height: 35px; margin-top: 10px' />
+              </a> -->
+
+              <!-- Google -->
+              <!-- <a href='https://play.google.com/store/books/details/Rumpel_Stiltskin_Montana?id=ftFBEAAAQBAJ'
+                ><img src='/images/google-play-badge.png' class='retailer' style='height: 60px' />
+              </a> -->
+
+              <!-- <a href="" class="retailer preview-button" style="margin-top: 10px">Preview</a> -->
+              <!-- <a href="https://www.smashwords.com/books/view/1070773"><img src="/images/smashwords.png" /></a> -->
+            </div>
+
+            <br /><br />
+            <Subscribe />
+            <!-- <div id='disqus_thread' class='disqus'></div> -->
+            <br /><br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <Footer />
+</Layout>
+
+<style lang='scss'></style>

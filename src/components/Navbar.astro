@@ -1,0 +1,33 @@
+---
+// export interface Props {
+// 	title: string;
+// 	body: string;
+// 	href: string;
+// }
+
+// const { href, title, body } = Astro.props as Props;
+---
+
+<div class="navbar box-shadow">
+	<div class="container l">
+		<a class="nav l" href="/about">About</a>
+		<a class="nav l" href="/published">Published books</a>
+		<a href="/">
+			<div class="navlogo">
+				<img src="/images/logo.png" />
+			</div>
+		</a>
+		<a class="nav l" href="/work-in-progress">Work in progress</a>
+		<a class="nav l" href="/stories">Stories</a>
+	</div>
+	<div class="container m s">
+		<a class="nav m" href="/about">About</a>
+		<a class="nav s" href="/about">About</a>
+		<a class="nav m" href="/published">Published books</a>
+		<a class="nav s" href="/published">Published</a>
+		<a class="nav m" href="/work-in-progress">Work in progress</a>
+		<a class="nav s" href="/work-in-progress">In progress</a>
+		<a class="nav m" href="/stories">Stories</a>
+		<a class="nav s" href="/stories">Stories label</a>
+	</div>
+</div>

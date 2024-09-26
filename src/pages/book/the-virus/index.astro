@@ -1,0 +1,62 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Navbar from '../../../components/Navbar.astro';
+import Footer from '../../../components/Footer.astro';
+import Subscribe from '../../../components/Subscribe.astro';
+---
+
+<Layout
+  title='Rumpel Stiltskin | The Inheritance'
+  description='The Inheritance novel by Rumpel Stiltskin'
+  image='/images/the-inheritance.jpg'
+>
+  <Navbar />
+  <main>
+    <div class='monster'>
+      <!-- <img src="/images/biglogo.png" class="biglogo biglogo-spaced" /> -->
+      <div>
+        <br />
+        <br />
+        <br />
+      </div>
+
+      <div class='grid'>
+        <div class='big-cover'>
+          <img src='/images/covers/the-virus.jpg' />
+        </div>
+        <div class='book-description'>
+          <p class='emp grey'>BY RUMPEL STILTSKIN</p>
+          <div class='book-title-container'>
+            <div class='title'>The Virus</div>
+            <div>
+              <br /><br />
+              <!-- <a href='preview/' class='preview-button'>Preview</a> -->
+            </div><br />
+          </div>
+
+          <div class='bigger'>
+            <p>
+              Experimental vaccine left the world in chaos. The only hope is one man who can still have children,
+              resulting in an androcratic society ruled by men, where women are property, bought and sold as slaves.
+            </p>
+            <p>
+              Marcus is a paranoid genius and a borderline sociopath working for a criminal pharmaceutical company. He
+              comes across their depopulation plans and runs away with a kidnapped girl in a trunk, gathering a militia
+              to take over a state. While the world is falling apart in riots and anarchy, he helps create a new society
+              based on slavery where he starts breeding female slaves to repopulate the planet.
+            </p>
+            <p>This book contains a graphic description of sex between adults, physical and psychological powerplay.</p>
+
+            <br /><br />
+            <Subscribe />
+            <!-- <div id='disqus_thread' class='disqus'></div> -->
+            <br /><br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <Footer />
+</Layout>
+
+<style lang='scss'></style>

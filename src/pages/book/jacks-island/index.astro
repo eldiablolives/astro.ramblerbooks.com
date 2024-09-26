@@ -1,0 +1,92 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Navbar from '../../../components/Navbar.astro';
+import Footer from '../../../components/Footer.astro';
+import Subscribe from '../../../components/Subscribe.astro';
+---
+
+<Layout
+  title="Rumpel Stiltskin | Jack's island"
+  description="Jack's Island novel by Rumpel Stiltskin"
+  image='/images/jacks-island.jpg'
+>
+  <Navbar />
+  <main>
+    <div class='monster'>
+      <!-- <img src="/images/biglogo.png" class="biglogo biglogo-spaced" /> -->
+      <div>
+        <br />
+        <br />
+        <br />
+      </div>
+
+      <div class='grid'>
+        <div class='big-cover'>
+          <img src='/images/covers/jacks-island.jpg' />
+        </div>
+        <div class='book-description'>
+          <p class='emp grey'>BY RUMPEL STILTSKIN</p>
+          <div class='book-title-container'>
+            <div class='title'>Jack's Island</div>
+            <div>
+              <a href='preview/prologue' class='preview-button'>Preview</a>
+            </div><br />
+          </div>
+
+          <div class='bigger'>
+            <p>
+              Jack has a plan. It starts with an island. He brings thousands of women there just to breed them and
+              create a whole nation made up of offspring sharing his genes. He has the power inside him to give women
+              incredible orgasms unlike any they had before in contact with his almost limitless sperm and make them
+              pregnant. The question is, how do you build a nation in secret?
+            </p>
+            <p>
+              What would you do if you had a secret so big that could destroy humanity? Would you share it with the rest
+              of the world? Would you save them, or would you let them wither away?
+            </p>
+            <p>
+              Engineering a society on radically different principles often leads to radical results. As time passed,
+              the people of Jack's Island behaved less and less like other humans. Ecology, science and technology.
+              Everything went a different way to the rest of the people on the planet. The question is, how will it end?
+              Who exactly is Jack? What's in his DNA?
+            </p>
+            <p>
+              It all starts with an idea, an outcome of sorts, that working back, you break down feints within feints,
+              lies within lies, games within games until you come to the beginning where you start.
+            </p>
+            <p>This book contains strong language and a graphic description of consensual sex between adults.</p>
+
+            <br />
+            <div class='center retailers'>
+              <!-- Amazon -->
+              <a href='https://www.amazon.com/gp/product/B09T3TZPR4'
+                ><img src='/images/amaz1.png' class='retailer' style='width: 100px; margin-top: 10px' />
+              </a>
+
+              <!-- Apple -->
+              <a href='https://apple.co/3tRvHR1'
+                ><img src='/images/apple-books-badge.png' class='retailer' style='height: 35px; margin-top: 10px' />
+              </a>
+
+              <!-- Google -->
+              <a href='https://play.google.com/store/books/details?id=DzRxEAAAQBAJ'
+                ><img src='/images/google-play-badge.png' class='retailer' style='height: 60px' />
+              </a>
+
+              <!-- <a href="" class="retailer preview-button" style="margin-top: 10px">Preview</a> -->
+              <!-- <a href="https://www.smashwords.com/books/view/1070773"><img src="/images/smashwords.png" /></a> -->
+            </div>
+
+            <br /><br />
+            <Subscribe />
+            <!-- <div id='disqus_thread' class='disqus'></div> -->
+            <br /><br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <Footer />
+</Layout>
+
+<style lang='scss'></style>

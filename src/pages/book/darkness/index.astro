@@ -1,0 +1,68 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Navbar from '../../../components/Navbar.astro';
+import Footer from '../../../components/Footer.astro';
+import Subscribe from '../../../components/Subscribe.astro';
+---
+
+<Layout
+  title='Rumpel Stiltskin | Darkness'
+  description='Darkness novel by Rumpel Stiltskin'
+  image='/images/darkness.jpg'
+>
+  <Navbar />
+  <main>
+    <div class='monster'>
+      <!-- <img src="/images/biglogo.png" class="biglogo biglogo-spaced" /> -->
+      <div>
+        <br />
+        <br />
+        <br />
+      </div>
+
+      <div class='grid'>
+        <div class='big-cover'>
+          <img src='/images/covers/darkness.jpg' />
+        </div>
+        <div class='book-description'>
+          <p class='emp grey'>BY RUMPEL STILTSKIN</p>
+          <div class='book-title-container'>
+            <div class='title'>Darkness</div><br />
+            <div>
+              <!-- <a href='preview/' class='preview-button'>Preview</a> -->
+              <br /><br />
+            </div>
+          </div>
+
+          <div class='bigger'>
+            <p>
+              This is a disturbing tale of sex and violence, breaking just about every taboo and pushing it into a realm
+              of gore. The book the exploits of a violent psychopath without a shred of humanity on a mission to destroy
+              it.
+            </p>
+            <p>
+              The story contains scenes of non-consensual sex and violence, torture, slavery, prostitution, people and
+              organ trafficking, bodily mutilation, murder, with scenes of bestiality and forced drug use. It is not
+              meant for readers with a weak stomach, and is likely to sicken and offend pretty much everyone.
+            </p>
+            <p class='red'>
+              The author doesn’t condone, approve of, endorse or support any of the fucked up shit happening in this
+              story. It is sick, vile and terrible crap and if it gives you nightmares, remember. You did it to
+              yourself.
+            </p>
+          </div>
+          <div class='retailers'>
+            <a href='preview/foreword' class='preview-button'>Start reading</a>
+            <br /><br /><br />
+            <Subscribe />
+            <!-- <div id='disqus_thread' class='disqus'></div> -->
+            <br /><br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <Footer />
+</Layout>
+
+<style lang='scss'></style>

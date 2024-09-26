@@ -1,0 +1,75 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Navbar from '../../../components/Navbar.astro';
+import Footer from '../../../components/Footer.astro';
+import Subscribe from '../../../components/Subscribe.astro';
+---
+
+<Layout title='Rumpel Stiltskin | Ted' description='Ted novel by Rumpel Stiltskin' image='/images/ted.jpg'>
+  <Navbar />
+  <main>
+    <div class='monster'>
+      <!-- <img src="/images/biglogo.png" class="biglogo biglogo-spaced" /> -->
+      <div>
+        <br />
+        <br />
+        <br />
+      </div>
+
+      <div class='grid'>
+        <div class='big-cover'>
+          <img src='/images/covers/ted.jpg' />
+        </div>
+        <div class='book-description'>
+          <p class='emp grey'>BY RUMPEL STILTSKIN</p>
+          <div class='book-title-container'>
+            <div class='title'>Ted</div>
+            <div>
+              <a href='preview/chapter-1-oh-fuck-it' class='preview-button'>Preview</a>
+            </div><br />
+          </div>
+
+          <div class='bigger'>
+            <p>
+              Dissatisfied by his life, Edward quits his management job, and with the help of his best friend, Richard
+              decides to get into the porn business and build a new life surrounded by hot girls and a lot of sex. The
+              two middle-aged men reinvent themselves as porn stars Limp Dick and Horny Ted
+            </p>
+            <p>
+              Edward did the right thing all his life, followed the path of so many, finishing the right school, getting
+              the right degree, fighting his way up the corporate ladder in a government institution. On the thirtieth
+              anniversary of his employment, he suddenly realises that he wasted his life. He has been living without
+              living and co-opts his best friend Richard into a crazy scheme that would reverse all that and offer them
+              a life they never had, going out with a blast.
+            </p>
+            <p>This book contains strong language and a graphic description of consensual sex between adults.</p>
+
+            <br />
+            <div class='center retailers'>
+              <!-- Amazon -->
+              <a href='https://www.amazon.com/gp/product/B09LRKRP5L'
+                ><img src='/images/amaz1.png' class='retailer' style='width: 100px; margin-top: 10px' />
+              </a>
+
+              <!-- Apple -->
+              <a href='https://apple.co/3OvczQr'
+                ><img src='/images/apple-books-badge.png' class='retailer' style='height: 35px; margin-top: 10px' />
+              </a>
+
+              <!-- <a href="" class="retailer preview-button" style="margin-top: 10px">Preview</a> -->
+              <!-- <a href="https://www.smashwords.com/books/view/1070773"><img src="/images/smashwords.png" /></a> -->
+            </div>
+
+            <br /><br />
+            <Subscribe />
+            <!-- <div id='disqus_thread' class='disqus'></div> -->
+            <br /><br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <Footer />
+</Layout>
+
+<style lang='scss'></style>

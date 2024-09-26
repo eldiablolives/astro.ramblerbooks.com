@@ -1,0 +1,88 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Navbar from '../../../components/Navbar.astro';
+import Footer from '../../../components/Footer.astro';
+import Subscribe from '../../../components/Subscribe.astro';
+---
+
+<Layout
+  title='Rumpel Stiltskin | The Breed'
+  description='The Breed novel by Rumpel Stiltskin'
+  image='/images/the-breed.jpg'
+>
+  <Navbar />
+  <main>
+    <div class='monster'>
+      <!-- <img src="/images/biglogo.png" class="biglogo biglogo-spaced" /> -->
+      <div>
+        <br />
+        <br />
+        <br />
+      </div>
+
+      <div class='grid'>
+        <div class='big-cover'>
+          <img src='/images/covers/breed.jpg' />
+        </div>
+        <div class='book-description'>
+          <p class='emp grey'>BY RUMPEL STILTSKIN</p>
+          <div class='book-title-container'>
+            <div class='title'>The Breed</div>
+            <div>
+              <a href='preview/chapter-1-nocturnal-emissions' class='preview-button'>Preview</a>
+            </div><br />
+          </div>
+
+          <div class='bigger'>
+            <p>
+              At the age of eighteen, Jack discovers that he was born with a unique mutation that allows him to produce
+              sperm that causes the most incredible orgasms in women. He uses this to surround himself with the most
+              beautiful women, starting with his former babysitter, the preacher's daughter.
+            </p>
+
+            <p>
+              Jack is good looking and a great student, and now he's got the power to give women he meets the most
+              incredible orgasms lasting for hours. As women join Jack's growing followers, one has to ask, is Jack just
+              having some fun, or does he have a plan.
+            </p>
+            <p>
+              What would you do if you could give someone the most intense pleasure? Jack has to consider his future and
+              the person he wants to become, as well as all the women he touched who tried true bliss. Would they be
+              able to walk away, or would they become his slave?
+            </p>
+            <p>This book contains strong language and a graphic description of consensual sex between adults.</p>
+
+            <br />
+            <div class='center retailers'>
+              <!-- Amazon -->
+              <a href='https://www.amazon.com/gp/product/B09F3LQCGC'
+                ><img src='/images/amaz1.png' class='retailer' style='width: 100px; margin-top: 10px' />
+              </a>
+
+              <!-- Apple -->
+              <a href='https://apple.co/3xMzArx'
+                ><img src='/images/apple-books-badge.png' class='retailer' style='height: 35px; margin-top: 10px' />
+              </a>
+
+              <!-- Google -->
+              <a href='https://play.google.com/store/books/details?id=BTRxEAAAQBAJ'
+                ><img src='/images/google-play-badge.png' class='retailer' style='height: 60px' />
+              </a>
+
+              <!-- <a href="" class="retailer preview-button" style="margin-top: 10px">Preview</a> -->
+              <!-- <a href="https://www.smashwords.com/books/view/1070773"><img src="/images/smashwords.png" /></a> -->
+            </div>
+
+            <br /><br />
+            <Subscribe />
+            <!-- <div id='disqus_thread' class='disqus'></div> -->
+            <br /><br />
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <Footer />
+</Layout>
+
+<style lang='scss'></style>
