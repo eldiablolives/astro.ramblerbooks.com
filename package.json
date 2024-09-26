@@ -10,7 +10,7 @@
     "astro": "astro"
   },
   "devDependencies": {
-    "astro": "^1.0.0-rc.7",
-    "sass": "^1.54.3"
+    "astro": "^4.15.9",
+    "sass": "^1.79.3"
   }
 }

@@ -1,0 +1,123 @@
+---
+import GlobalStyles from "../components/GlobalStyles.astro";
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+import Navbar from "../components/Navbar.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<Layout
+  title="Rumpel Stiltskin | Books and Stories - Published Works"
+  description="Published books and stories by Rumpel Stiltskin"
+  image="/images/logo.png"
+>
+  <Navbar />
+  <main>
+    <div class="monster">
+      <!-- <img src="images/biglogo.png" class="biglogo biglogo-spaced" /> -->
+      <div>
+        <br />
+        <br />
+        <br />
+      </div>
+      <div class="center">
+        <p class="emp grey">BROWSE BOOKS</p>
+        <h1>Authors</h1>
+        <p class="bigger grey">
+          These books are currently published<br />and available through most
+          major online retailers
+        </p>
+        <br /><br />
+      </div>
+      <div class="grid">
+        <div class="book-item">
+          <div class="cover">
+            <a href="/author/rumpel-stiltskin/" class="small-cover shadowbox">
+              <img src="/images/authors/rumpelstiltskin.jpg" />
+            </a>
+          </div>
+          <div class="author emp grey">RUMPEL STILTSKIN</div>
+          <!-- <div class='book-title'>Jack's Island</div> -->
+        </div>
+
+        <div class="book-item">
+          <div class="cover">
+            <a href="/author/august-folly/" class="small-cover shadowbox">
+              <img src="/images/authors/augustfolly.jpg" />
+            </a>
+          </div>
+          <div class="author emp grey">AUGUST FOLLY</div>
+          <!-- <div class='book-title'>The Breed</div> -->
+        </div>
+
+        <div class="book-item">
+          <div class="cover">
+            <a href="/author/solum-ender/" class="small-cover shadowbox">
+              <img src="/images/authors/solumender.jpg" />
+            </a>
+          </div>
+          <div class="author emp grey">SOLUM ENDER</div>
+          <!-- <div class='book-title'>Montana <span class='free'>FREE</span></div> -->
+        </div>
+
+        <div class="book-item">
+          <div class="cover">
+            <a href="/author/milton-maru/" class="small-cover shadowbox">
+              <img src="/images/authors/miltonmaru.jpg" />
+            </a>
+          </div>
+          <div class="author emp grey">MILTON MARU</div>
+          <!-- <div class='book-title'>The Inheritance</div> -->
+        </div>
+
+        <div class="book-item">
+          <div class="cover">
+            <a href="/author/mimi-leroux/" class="small-cover shadowbox">
+              <img src="/images/authors/mimileroux.jpg" />
+            </a>
+          </div>
+          <div class="author emp grey">MIMI LEROUX</div>
+          <!-- <div class='book-title'>The Formula</div> -->
+        </div>
+
+        <div class="book-item">
+          <div class="cover">
+            <a href="/author/dane-grander/" class="small-cover shadowbox">
+              <img src="/images/authors/danegrander.jpg" />
+            </a>
+          </div>
+          <div class="author emp grey">DANE GRANDER</div>
+          <!-- <div class='book-title'>Woman Scorned</div> -->
+        </div>
+
+        <div class="book-item">
+          <div class="cover">
+            <a
+              href="/author/strawberry-fields/"
+              class="small-cover shadowbox"
+            >
+              <img src="/images/authors/strawberryfields.jpg" />
+            </a>
+          </div>
+          <div class="author emp grey">STRAWBERRY FIELDS</div>
+          <!-- <div class='book-title'>Behind The Glass Door</div> -->
+        </div>
+
+        <div class="book-item">
+          <div class="cover">
+            <a href="/author/varan-komodo/" class="small-cover shadowbox">
+              <img src="/images/authors/varankomodo.jpg" />
+            </a>
+          </div>
+          <div class="author emp grey">VARAN KOMODO</div>
+          <!-- <div class='book-title'>Ted</div> -->
+        </div>
+
+        <div></div>
+      </div>
+    </div>
+  </main>
+  <Footer />
+</Layout>
+
+<style lang="scss"></style>

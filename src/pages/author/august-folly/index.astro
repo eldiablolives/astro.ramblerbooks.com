@@ -1,0 +1,241 @@
+---
+import GlobalStyles from "../../../components/GlobalStyles.astro";
+import Layout from "../../../layouts/Layout.astro";
+import Card from "../../../components/Card.astro";
+import Navbar from "../../../components/Navbar.astro";
+import Footer from "../../../components/Footer.astro";
+---
+
+<Layout
+  title="Rumpel Stiltskin | Books and Stories - Published Works"
+  description="Published books and stories by Rumpel Stiltskin"
+  image="/images/logo.png"
+>
+  <Navbar />
+  <main>
+    <div>
+      <br />
+      <br />
+      <br />
+    </div>
+    <div class="grid">
+      <div class="big-cover">
+        <img src="/images/authors/augustfolly.jpg" />
+      </div>
+      <div class="book-description">
+        <p class="emp grey">AUTHOR</p>
+        <div class="book-title-container">
+          <div class="title">August Folly</div>
+        </div>
+
+        <div class="bigger">
+          <p>
+            August Folly is a British novelist known for his raw, unfiltered
+            storytelling, sharp social commentary, and deep character
+            exploration. An Oxford graduate, he coined the term “punk fiction”
+            to describe his fast-paced, visceral style, stripping narratives
+            down to their most intense moments.
+          </p><p>
+            Folly’s work spans thrillers, action, and philosophical fiction,
+            often exploring morally complex characters and controversial themes.
+            With a keen interest in exposing societal hypocrisies and
+            injustices, he challenges readers to confront uncomfortable truths
+            and question the world around them. He splits his time between
+            London and wherever his next story takes him.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="monster">
+      <div class="center">
+        <p class="emp grey">BROWSE BOOKS</p>
+        <h1>Published books</h1>
+        <!-- <p class="bigger grey">
+          These books are currently published<br />and available through most
+          major online retailers
+        </p> -->
+        <br /><br />
+      </div>
+      <div class="grid">
+        <div class="book-item">
+          <div class="cover">
+            <a href="/books/jacks-island/" class="small-cover shadowbox">
+              <img src="/images/covers/jacks-island.jpg" />
+            </a>
+          </div>
+          <div class="author emp grey">RUMPEL STILTSKIN</div>
+          <div class="book-title">Jack's Island</div>
+        </div>
+
+        <div class="book-item">
+          <div class="cover">
+            <a href="/books/the-breed/" class="small-cover shadowbox">
+              <img src="/images/covers/breed.jpg" />
+            </a>
+          </div>
+          <div class="author emp grey">RUMPEL STILTSKIN</div>
+          <div class="book-title">The Breed</div>
+        </div>
+
+        <div class="book-item">
+          <div class="cover">
+            <a href="/books/montana/" class="small-cover shadowbox">
+              <img src="/images/covers/montana3.jpg" />
+            </a>
+          </div>
+          <div class="author emp grey">RUMPEL STILTSKIN</div>
+          <div class="book-title">Montana <span class="free">FREE</span></div>
+        </div>
+
+        <div class="book-item">
+          <div class="cover">
+            <a href="/books/the-inheritance/" class="small-cover shadowbox">
+              <img src="/images/covers/inheritance.jpg" />
+            </a>
+          </div>
+          <div class="author emp grey">RUMPEL STILTSKIN</div>
+          <div class="book-title">The Inheritance</div>
+        </div>
+
+        <div class="book-item">
+          <div class="cover">
+            <a href="/books/the-formula/" class="small-cover shadowbox">
+              <img src="/images/covers/formula.jpg" />
+            </a>
+          </div>
+          <div class="author emp grey">RUMPEL STILTSKIN</div>
+          <div class="book-title">The Formula</div>
+        </div>
+
+        <div class="book-item">
+          <div class="cover">
+            <a href="/books/woman-scorned/" class="small-cover shadowbox">
+              <img src="/images/covers/woman-scorned.jpg" />
+            </a>
+          </div>
+          <div class="author emp grey">RUMPEL STILTSKIN</div>
+          <div class="book-title">Woman Scorned</div>
+        </div>
+
+        <div class="book-item">
+          <div class="cover">
+            <a
+              href="/books/behind-the-glass-door/"
+              class="small-cover shadowbox"
+            >
+              <img src="/images/covers/behind.jpg" />
+            </a>
+          </div>
+          <div class="author emp grey">RUMPEL STILTSKIN</div>
+          <div class="book-title">Behind The Glass Door</div>
+        </div>
+
+        <div class="book-item">
+          <div class="cover">
+            <a href="/books/ted/" class="small-cover shadowbox">
+              <img src="/images/covers/ted.jpg" />
+            </a>
+          </div>
+          <div class="author emp grey">RUMPEL STILTSKIN</div>
+          <div class="book-title">Ted</div>
+        </div>
+
+        <div class="book-item">
+          <div class="cover">
+            <a href="/books/greg/" class="small-cover shadowbox">
+              <img src="/images/covers/greg.jpg" />
+            </a>
+          </div>
+          <div class="author emp grey">RUMPEL STILTSKIN</div>
+          <div class="book-title">Greg</div>
+        </div>
+
+        <div class="book-item">
+          <div class="cover">
+            <a href="/books/big-fish/" class="small-cover shadowbox">
+              <img src="/images/covers/big-fish.jpg" />
+            </a>
+          </div>
+          <div class="author emp grey">RUMPEL STILTSKIN</div>
+          <div class="book-title">Big Fish <span class="free">FREE</span></div>
+        </div>
+
+        <div class="book-item">
+          <div class="cover">
+            <a href="/books/dire-wolf/" class="small-cover shadowbox">
+              <img src="/images/covers/direwolf.jpg" />
+            </a>
+          </div>
+          <div class="author emp grey">RUMPEL STILTSKIN</div>
+          <div class="book-title">Dire Wolf</div>
+        </div>
+
+        <div class="book-item">
+          <div class="cover">
+            <a href="/books/another-life/" class="small-cover shadowbox">
+              <img src="/images/covers/another-life.jpg" />
+            </a>
+          </div>
+          <div class="author emp grey">RUMPEL STILTSKIN</div>
+          <div class="book-title">Another Life</div>
+        </div>
+
+        <div></div>
+      </div>
+      <div class="center">
+        <p class="emp grey">BROWSE BOOKS</p>
+        <h1>Work in progress</h1>
+        <p class="bigger grey">
+          These books are currently being writen<br />their estimated
+          availability may be noted below
+        </p>
+        <br /><br />
+      </div>
+      <div class="grid">
+        <div class="book-item">
+          <div class="cover">
+            <a href="/books/the-virus/" class="small-cover shadowbox">
+              <img src="/images/covers/the-virus.jpg" />
+            </a>
+          </div>
+          <div class="author emp grey">RUMPEL STILTSKIN</div>
+          <div class="book-title">The Virus</div>
+        </div>
+
+        <div class="book-item">
+          <div class="cover">
+            <a href="/books/slight-fever/" class="small-cover shadowbox">
+              <img src="/images/covers/slight-fever.jpg" />
+            </a>
+          </div>
+          <div class="author emp grey">RUMPEL STILTSKIN</div>
+          <div class="book-title">Slight Fever</div>
+        </div>
+
+        <div class="book-item">
+          <div class="cover">
+            <a href="/books/clay/" class="small-cover shadowbox">
+              <img src="/images/covers/clay.jpg" />
+            </a>
+          </div>
+          <div class="author emp grey">RUMPEL STILTSKIN</div>
+          <div class="book-title">Clay</div>
+        </div>
+
+        <div class="book-item">
+          <div class="cover">
+            <a href="/books/stardust/" class="small-cover shadowbox">
+              <img src="/images/covers/stardust.jpg" />
+            </a>
+          </div>
+          <div class="author emp grey">RUMPEL STILTSKIN</div>
+          <div class="book-title">Stardust</div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <Footer />
+</Layout>
+
+<style lang="scss"></style>
