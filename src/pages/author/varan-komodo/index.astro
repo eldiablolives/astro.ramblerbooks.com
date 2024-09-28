@@ -1,159 +1,81 @@
 ---
-import GlobalStyles from '../../../components/GlobalStyles.astro';
-import Layout from '../../../layouts/Layout.astro';
-import Card from '../../../components/Card.astro';
-import Navbar from '../../../components/Navbar.astro';
-import Footer from '../../../components/Footer.astro';
+import GlobalStyles from "../../../components/GlobalStyles.astro";
+import Layout from "../../../layouts/Layout.astro";
+import Card from "../../../components/Card.astro";
+import Navbar from "../../../components/Navbar.astro";
+import Footer from "../../../components/Footer.astro";
 ---
 
 <Layout
-  title='Rumpel Stiltskin | Books and Stories - Published Works'
-  description='Published books and stories by Rumpel Stiltskin'
-  image='/images/logo.png'
+  title="Rumpel Stiltskin | Books and Stories - Published Works"
+  description="Published books and stories by Rumpel Stiltskin"
+  image="/images/logo.png"
 >
   <Navbar />
   <main>
-    <div class='monster'>
-      <!-- <img src="images/biglogo.png" class="biglogo biglogo-spaced" /> -->
-      <div>
-        <br />
-        <br />
-        <br />
+    <div>
+      <br />
+      <br />
+      <br />
+    </div>
+    <div class="grid">
+      <div class="big-cover">
+        <img src="/images/authors/varankomodo.jpg" />
       </div>
-      <div class='center'>
-        <p class='emp grey'>BROWSE BOOKS</p>
-        <h1>Published books</h1>
-        <p class='bigger grey'>
-          These books are currently published<br />and available through most major online retailers
-        </p>
+      <div class="book-description">
+        <p class="emp grey">AUTHOR</p>
+        <div class="book-title-container">
+          <div class="title">Varan Komodo</div>
+        </div>
+
+        <div class="bigger">
+          <p>
+            Varan Komodo is a former bruiser and road warrior turned traveler,
+            seeker, and storyteller. Once living life on the edge as a
+            streetwise gangster, Varan now rides the open road, searching for
+            meaning and beauty in places most people overlook. After a stint in
+            Pentonville Prison led him to question everything, he left his old
+            life behind, trading violence for adventure, and fists for words.
+            His travels took him from the gritty streets to mountain peaks,
+            coastal sunsets, and endless horizons—all of which find their way
+            into his writing.
+          </p><p>
+            With novels that blend raw humor, spiritual musings, and a deep
+            appreciation for life’s absurdity, Varan’s work captures the world
+            through the eyes of a man who’s seen its darkness but chooses to
+            celebrate its light. He writes with a voice that’s both tough and
+            tender, sharing stories of wild landscapes, unexpected encounters,
+            and the relentless search for self-discovery.
+          </p><p>
+            When he’s not writing, you can find Varan on his motorcycle,
+            somewhere between nowhere and everywhere, chasing the sunrise and
+            collecting stories one mile at a time.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="monster">
+      <div class="center">
+        <p class="emp grey">BROWSE BOOKS</p>
+        <h1>Upcoming Releases</h1>
+
         <br /><br />
       </div>
-      <div class='grid'>
-        <div class='book-item'>
-          <div class='cover'>
-            <a href='/books/jacks-island/' class='small-cover shadowbox'>
-              <img src='/images/covers/jacks-island.jpg' />
+      <div class="grid">
+        <div class="book-item">
+          <div class="cover">
+            <a href="/books/the-virus/" class="small-cover shadowbox">
+              <img src="/images/covers/the-virus.jpg" />
             </a>
           </div>
-          <div class='author emp grey'>RUMPEL STILTSKIN</div>
-          <div class='book-title'>Jack's Island</div>
+          <div class="author emp grey">VARAN KOMODO</div>
+          <div class="book-title">Bober and I</div>
         </div>
-
-        <div class='book-item'>
-          <div class='cover'>
-            <a href='/books/the-breed/' class='small-cover shadowbox'>
-              <img src='/images/covers/breed.jpg' />
-            </a>
-          </div>
-          <div class='author emp grey'>RUMPEL STILTSKIN</div>
-          <div class='book-title'>The Breed</div>
-        </div>
-
-        <div class='book-item'>
-          <div class='cover'>
-            <a href='/books/montana/' class='small-cover shadowbox'>
-              <img src='/images/covers/montana3.jpg' />
-            </a>
-          </div>
-          <div class='author emp grey'>RUMPEL STILTSKIN</div>
-          <div class='book-title'>Montana <span class='free'>FREE</span></div>
-        </div>
-
-        <div class='book-item'>
-          <div class='cover'>
-            <a href='/books/the-inheritance/' class='small-cover shadowbox'>
-              <img src='/images/covers/inheritance.jpg' />
-            </a>
-          </div>
-          <div class='author emp grey'>RUMPEL STILTSKIN</div>
-          <div class='book-title'>The Inheritance</div>
-        </div>
-
-        <div class='book-item'>
-          <div class='cover'>
-            <a href='/books/the-formula/' class='small-cover shadowbox'>
-              <img src='/images/covers/formula.jpg' />
-            </a>
-          </div>
-          <div class='author emp grey'>RUMPEL STILTSKIN</div>
-          <div class='book-title'>The Formula</div>
-        </div>
-
-        <div class='book-item'>
-          <div class='cover'>
-            <a href='/books/woman-scorned/' class='small-cover shadowbox'>
-              <img src='/images/covers/woman-scorned.jpg' />
-            </a>
-          </div>
-          <div class='author emp grey'>RUMPEL STILTSKIN</div>
-          <div class='book-title'>Woman Scorned</div>
-        </div>
-
-        <div class='book-item'>
-          <div class='cover'>
-            <a href='/books/behind-the-glass-door/' class='small-cover shadowbox'>
-              <img src='/images/covers/behind.jpg' />
-            </a>
-          </div>
-          <div class='author emp grey'>RUMPEL STILTSKIN</div>
-          <div class='book-title'>Behind The Glass Door</div>
-        </div>
-
-        <div class='book-item'>
-          <div class='cover'>
-            <a href='/books/ted/' class='small-cover shadowbox'>
-              <img src='/images/covers/ted.jpg' />
-            </a>
-          </div>
-          <div class='author emp grey'>RUMPEL STILTSKIN</div>
-          <div class='book-title'>Ted</div>
-        </div>
-
-        <div class='book-item'>
-          <div class='cover'>
-            <a href='/books/greg/' class='small-cover shadowbox'>
-              <img src='/images/covers/greg.jpg' />
-            </a>
-          </div>
-          <div class='author emp grey'>RUMPEL STILTSKIN</div>
-          <div class='book-title'>Greg</div>
-        </div>
-
-        <div class='book-item'>
-          <div class='cover'>
-            <a href='/books/big-fish/' class='small-cover shadowbox'>
-              <img src='/images/covers/big-fish.jpg' />
-            </a>
-          </div>
-          <div class='author emp grey'>RUMPEL STILTSKIN</div>
-          <div class='book-title'>Big Fish <span class='free'>FREE</span></div>
-        </div>
-
-        <div class='book-item'>
-          <div class='cover'>
-            <a href='/books/dire-wolf/' class='small-cover shadowbox'>
-              <img src='/images/covers/direwolf.jpg' />
-            </a>
-          </div>
-          <div class='author emp grey'>RUMPEL STILTSKIN</div>
-          <div class='book-title'>Dire Wolf</div>
-        </div>
-
-        <div class='book-item'>
-          <div class='cover'>
-            <a href='/books/another-life/' class='small-cover shadowbox'>
-              <img src='/images/covers/another-life.jpg' />
-            </a>
-          </div>
-          <div class='author emp grey'>RUMPEL STILTSKIN</div>
-          <div class='book-title'>Another Life</div>
-        </div>
-
-        <div></div>
       </div>
     </div>
   </main>
   <Footer />
 </Layout>
 
-<style lang='scss'></style>
+<style lang="scss"></style>
